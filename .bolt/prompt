@@ -1,0 +1,53 @@
+## Project Overview: FerskStrategy (MVP – FerskTech Suite)
+
+You are designing an MVP for FerskStrategy, a core tool in the FerskTech Suite — a modern travel program intelligence platform used by corporate travel leaders.
+
+The primary user is the Corporate Travel Program Consultant (CTPC), with secondary use cases for Corporate Travel Managers (CTMs). The tool is used to define and operationalize strategic travel plans for large organizations, with a strong emphasis on hotel program optimization, supplier management, and policy alignment.
+
+---
+Product Purpose
+FerskStrategy helps users:
+- Set travel program goals and KPIs
+- Identify high-value hotel markets and chains
+- Assess supplier leverage based on behavior and spend data
+- Export strategy to other execution tools in the suite:
+  - FerskPolicy (custom policy builder)
+  - FerskSource (hotel RFP automation)
+  - FerskAudit (rate compliance monitor)
+  - FerskPlanner (traveler feedback system)
+ 
+ Design Guidelines
+- Modular UI with dashboards, cards, filters, and data-driven components
+- Interfaces must be clean, professional, and scalable
+- Emphasize clarity, ease of decision-making, and trust in the data
+
+Brand Colors
+Use the following FerskTech color palette for consistent visual branding:
+
+- Navy: `#232e66` (Primary)
+- Teal Blue: `#1b98d5` (Accent)
+- Orange: `#f58028` (Highlight)
+- Mint Green: `#65c18e` (Secondary Success)
+- Slate Blue: `#1268ad` (UI Info/Secondary)
+- White: `#ffffff` (Background / Cards)
+
+Prefer cool tones for data interfaces and warm tones for user cues (e.g., alerts, highlights, call-to-action buttons).
+
+---
+
+ 📐 UX Priorities
+
+- Role-based clarity (CTPCs manage multiple clients; CTMs manage a single program)
+- Every feature must support strategic actions (build, refine, or execute)
+- Data must always have context (tooltips, trends, benchmarks)
+
+---
+
+ 🧠 Data Objects to Consider
+
+- Strategy Profile: a named package of goals, KPIs, and market focus
+- Leverage Score: a supplier-specific metric based on booking behavior and spend
+- Market Opportunity Score: a ranking of city-level sourcing value
+- Export Package: a configurable summary sent to another tool in the FerskSuite
+
+These objects should appear consistently across modules and be editable or exportable.
