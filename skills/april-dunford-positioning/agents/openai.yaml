@@ -1,0 +1,4 @@
+interface:
+  display_name: "April Dunford Positioning"
+  short_description: "Position with the Dunford method."
+  default_prompt: "Use $april-dunford-positioning to build complete product positioning, messaging architecture, and rollout-ready narrative."
